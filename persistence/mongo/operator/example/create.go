@@ -4,9 +4,9 @@ import (
 	"context"
 	"log"
 
-	ExampleSchema "github.com/hikelin/goDemo/persistence/mongo/schema/example"
+	ExampleSchema "demo/persistence/mongo/schema/example"
 
-	OperationRunner "github.com/hikelin/goDemo/persistence/mongo/operator/runner"
+	OperationRunner "demo/persistence/mongo/operator/runner"
 
 	"github.com/mongodb/mongo-go-driver/bson"
 	"github.com/mongodb/mongo-go-driver/bson/objectid"

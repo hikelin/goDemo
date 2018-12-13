@@ -2,7 +2,7 @@ package example
 
 import (
 	"context"
-	ExampleSchema "github.com/hikelin/goDemo/persistence/mongo/schema/example"
+	ExampleSchema "demo/persistence/mongo/schema/example"
 	"log"
 
 	"github.com/mongodb/mongo-go-driver/bson"
